@@ -1,0 +1,367 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 1001px;
+    margin: 0 auto;
+}
+
+.top{
+    position: fixed;
+
+    bottom: 50px;
+    right: 220px;
+}
+
+.navbar {
+    height: 80px;
+    background-color: #fff;
+
+}
+
+.nav {
+    display: flex;
+    height: 28px;
+    background-color: #f6f6f6;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 200;
+    padding-right: 20px;
+}
+
+.nav_bottom {
+height: 52px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    height: 100%;
+    
+}
+.nav-items li{
+    height: 100%;
+    
+}
+.nav-items a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    float: left;
+    color: #00cc99;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    border-bottom: 5px solid transparent;
+    margin-left: 20px;
+    background-color: #fff;
+    padding: 0px 16px;
+}
+
+.nav-items a:hover {
+    border-bottom: 5px solid #00cc99;
+    transition: 0.5s;
+}
+
+.nav-items ul{
+    display: none;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown_open{
+    position: absolute;
+    top:52px;
+    width: 200px;
+    z-index: 999;
+}
+
+.dropdown_open a{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.fb {
+    display: flex;
+    height: 14px;
+    padding-right: 10px;
+    border-right: solid #cccccc;
+    border-width: 1px;
+    color: #4460a0;
+    align-items: center;
+}
+
+.nav img {
+    padding-right: 2px;
+}
+
+.twitter {
+    display: flex;
+    padding-left: 10px;
+    justify-content: end;
+    color: #00aaec;
+    align-items: center;
+}
+
+.logo {
+    width: 171px;
+    height: 36px;
+    background-image: url(../img/logo.png);
+}
+
+.logo_grey {
+    width: 171px;
+    height: 36px;
+    background-image: url(../img/logo2.png);
+}
+
+
+.swiper-container {
+    height: 346px;
+    position: relative;
+  }
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 65px 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    width: 300px;
+    height: 330px;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+    color: #333333;
+}
+
+.card .image {
+    display: flex;
+    align-items: center;
+    height: 140px;
+}
+
+.card h3 {
+    margin: 10px 0px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.card p {
+    font-size: 15px;
+    text-align:justify;
+}
+.table_area{
+    margin: 60px 80px;
+}
+.compare{
+    color: #333333;
+    width: 840px;
+    height: 245px;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table_area h2{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin: 30px;
+}
+
+.compare tr{
+border-top: 1px solid #dddddd ;
+border-bottom: 1px solid #dddddd ;
+}
+
+.compare td{
+    padding: 5px 20px;
+    font-weight: 400;
+
+}
+
+.compare th{
+    padding: 5px 20px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: #f7f7f7;
+    font-weight: 600;
+}
+
+.compare .highlight{
+    color: #00a67d;
+}
+
+.form {
+
+    height: 405px;
+    background-image: url(../img/bg.png);
+    background-repeat: repeat-x;
+    background-color: #009872;
+}
+
+.form h2 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.form .top_text {
+    padding-top: 25px;
+}
+
+.form_area {
+    display: flex;
+    padding: 30px 20px 30px 20px;
+    float: left;
+    justify-content: center;
+}
+
+textarea {
+    background-color: #fff;
+    resize: none;
+    width: 460px;
+    height: 245px;
+    border-radius: 3px;
+    float: left;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    float: left;
+    margin-left: 30px;
+}
+
+.controls .form_control {
+    padding-bottom: 10px;
+}
+
+.controls h3 {
+    color: #fff;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.controls input {
+    width: 440px;
+    height: 32px;
+    background-color: #fff;
+    border: 0 none;
+    border-radius: 3px;
+    padding-left: 20px;
+    color: #5c5c5c;
+}
+
+.button {
+    display: flex;
+    border-radius: 3px;
+    background-color: #00cc99;
+    width: 70px;
+    height: 32px;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+
+}
+
+.footer {
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px;
+    height: 120px;
+
+}
+
+.contact {
+    width: 235px;
+}
+
+.contact .name {
+    color: #5c5c5c;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.contact .info {
+    color: #e12d80;
+    font-size: 15px;
+    font-weight: 400;
+}
