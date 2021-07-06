@@ -1,0 +1,295 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*父樣式*/
+.container {
+  margin: 0 auto;
+}
+
+img {
+  align-content: center;
+}
+
+h1 {
+  text-align: left;
+  font: normal normal normal 80px/106px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  border-bottom: 2px solid #000000;
+}
+
+.content {
+  margin-bottom: 48px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000000;
+  padding: 8px 0px;
+  margin-bottom: 16px;
+}
+
+.content h2 {
+  display: inline-block;
+  text-align: left;
+  font: normal normal normal 32px/43px Noto Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-right: 16px;
+}
+
+.content h3 {
+  display: inline-block;
+  text-align: left;
+  font: normal normal bold 24px/32px Roboto;
+  letter-spacing: 0px;
+  color: #A00404;
+  opacity: 1;
+}
+
+.content ul {
+  margin-bottom: 24px;
+}
+
+.content li {
+  text-align: left;
+  font: normal normal normal 24px/36px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 12px;
+}
+
+.content p {
+  width: 642px;
+  text-align: left;
+  font: normal normal normal 20px/30px Noto Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 24px;
+}
+
+/*style1*/
+.style1 {
+  width: 1200px;
+}
+
+/*style2*/
+.style2 {
+  background: #415165 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.style2 .title {
+  justify-content: center;
+  padding: 24px 0px 8px 0px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 37px;
+}
+
+.style2 .title h2,
+.style2 .title h3 {
+  color: #fff;
+}
+
+.style2 ul {
+  margin: 0 auto;
+  padding: 0px 24px;
+
+}
+
+.style2 li {
+  font: normal normal 300 24px/36px Roboto;
+  color: #FFFFFF;
+}
+
+/*個別樣式*/
+.profile img {
+  margin: 46px 0px;
+}
+
+.skill {
+  height: 474px;
+  width: 996px;
+  margin: 0 auto;
+}
+
+.skill ul {
+  width: 192px;
+  border-left: 1px solid #fff;
+}
+
+.experience {
+  padding-top: 72px;
+}
+
+.experience ul {
+  padding: 0px 24px;
+  border-left: 1px solid #96A9C4;
+  margin: 0px 24px;
+}
+
+.experience img {
+  margin: 8px 0px;
+}
+
+.profile li {
+  margin: 0;
+}
+
+.contact {
+  height: 384px;
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+
+.contact li {
+  text-align: center;
+}
+
+.contact .media {
+  display: flex;
+  justify-content: center;
+}
+
+.contact img {
+  margin: 8px;
+}
