@@ -1,0 +1,663 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: PingFangSC-Regular, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+.contain{
+width: 60%;
+}
+
+.content a {
+    font: normal normal 600 16px/24px PingFang TC;
+    color: #AC8A46;
+}
+
+.content p {
+    font: normal normal 300 20px/30px PingFang TC;
+    margin-bottom: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+}
+
+.header .logo {
+    width: 128px;
+    height: 38px;
+    background-image: url(img/d’Perfume.png);
+    padding: 9px 0;
+}
+
+.header ul {
+    display: flex;
+}
+
+.header ul a {
+    padding: 16px;
+    color: #8D8D8D;
+    font: normal normal normal 20px/30px PingFang TC;
+    text-decoration: none;
+}
+
+.header .rwd {
+    display: none;
+}
+
+.banner {
+    width: 100%;
+    height: 870px;
+    background-image: url(img/index1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.banner .container {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.banner_content {
+    width: 445px;
+}
+
+.banner_content h2 {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+.banner_content p {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+.banner_content a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    padding: 16px;
+}
+
+.banner_content .button {
+    width: 350px;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product {
+    height: 555px;
+    display: flex;
+}
+
+.product .content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product .content h2 {
+    font: normal normal bold 32px/48px SF Pro Text;
+}
+
+.product-img {
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+}
+
+.product .img1 {
+    background-image: url(img/index2.jpg);
+}
+
+.product .img2 {
+    background-image: url(img/index3.png);
+}
+
+.product .img3 {
+    background-image: url(img/index4.jpg);
+}
+
+.step .img4 {
+    background-image: url(img/index5.jpg);
+    background-position: center;
+}
+
+.step {
+    height: 1080px;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.step .content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.step .content h2 {
+    font: normal normal 600 24px/36px SF Pro Text;
+}
+
+.step .content p {
+    font: normal normal 300 16px/24px SF Pro Text;
+    margin-bottom: 52px;
+}
+
+.step .button {
+    border: 2px solid #000000;
+    border-radius: 30px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step .button a {
+    font: normal normal 500 20px/30px SF Pro Text;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.price_wrap {
+    background-color: #E0E0E0
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.card {
+    width: 32%;
+
+}
+
+.card_img {
+    width: 100%;
+    height: 540px;
+    background-size: cover;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card .img1 {
+    background-image: url(img/index6.jpg);
+}
+
+.card .img2 {
+    background-image: url(img/index7.jpg);
+}
+
+.card .img3 {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(img/index8.jpg);
+}
+
+.card .card_img p {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.card p,
+.card span {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.card p {
+    margin-bottom: 16px;
+}
+
+.card .line-through {
+    text-decoration: line-through;
+    color: #8D8D8D;
+}
+
+.recycle {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.recycle .img {
+    width: 64%;
+    background-image: url(img/index9.jpg);
+    background-size: cover;
+}
+
+.recycle .content {
+    width: 32%;
+    padding: 80px 0;
+}
+
+.recycle .content h2 {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: bold;
+}
+
+.recycle .content h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+.recycle .content p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer_wrap {
+    background-image: url(img/index10.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.footer h2 {
+    font: normal normal 600 32px/48px PingFang TC;
+    color: #8D8D8D;
+}
+
+.subscribe {
+    width: 32%;
+    position: relative;
+    top: 312px;
+}
+
+.subscribe_form {
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+}
+
+#email {
+    border: 2px solid #916000;
+    border-radius: 4px 0px 0px 4px;
+    font-size: 16px;
+    color: #8D8D8D;
+    padding: 16px 16px;
+    width: 60%;
+}
+
+#submit {
+    position: absolute;
+    background: #916000;
+    border: 2px solid #916000;
+    border-radius: 0px 4px 4px 0px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 16px 26px;
+    width: 40%;
+}
+
+#submit:hover {
+    background: #795100;
+}
+
+.bottom_nav_wrap {
+    background-color: #916000;
+    height: 80px;
+    color: #fff;
+}
+
+.bottom_nav .logo_wrap {
+    display: flex;
+    align-items: center;
+}
+
+.bottom_nav .logo {
+    width: 128px;
+    height: 38px;
+    background-image: url(img/d’Perfumewhite.png);
+    margin-right: 20px;
+}
+
+.bottom_nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom_nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_nav a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+    margin: 18px;
+}
+
+.bottom_nav p {
+    font-size: 14px;
+
+}
+
+@media (max-width:768px) {
+    .container {
+        max-width: 345px;
+    }
+
+    .header .desktop {
+        display: none;
+    }
+
+    .header .rwd {
+        display: block;
+    }
+
+    .header .cart {
+        position: relative;
+    }
+
+    .badge {
+        position: absolute;
+        padding: 1px 5px;
+        border-radius: 9px;
+        right: 3px;
+        top: 0px
+    }
+
+    #lblCartCount {
+        font-size: 12px;
+        line-height: 12px;
+        background: #916000;
+        color: #fff;
+        vertical-align: top;
+    }
+
+    .header .bar a {
+        font-size: 32px;
+        padding: 0 0 0 32px;
+    }
+
+    .banner {
+        margin: 0;
+    }
+
+    .banner .container {
+        justify-content: center;
+    }
+
+    .contain {
+        width: 100%;
+    }
+
+    .product_wrap {
+        padding: 40px
+    }
+
+    .product {
+        flex-direction: column-reverse;
+        height: 100%;
+        padding: 16px 0px;
+    }
+
+    .product .content,
+    .step .content {
+        width: 100%;
+    }
+
+    .product .product-img {
+        height: 350px;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+    .step {
+        height: 1520px;
+        justify-content: space-between;
+        padding-top: 16px;
+        margin-bottom: 0;
+    }
+
+    .step .product-img {
+        height: 680px;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .price {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 100%;
+        padding-bottom: 24px;
+    }
+
+    .card p {
+        margin-bottom: 4px;
+    }
+
+    .card_img {
+        height: 350px;
+    }
+
+    .card .img1,
+    .card .img2 {
+        background-position: bottom;
+    }
+
+    .card .img3 {
+        background-position: center;
+    }
+
+    .recycle {
+        flex-direction: column;
+    }
+
+    .recycle .img,
+    .recycle .content {
+        width: 100%;
+    }
+
+    .recycle .img {
+        height: 520px;
+        background-position: center;
+    }
+
+    .recycle .content {
+        padding: 8px 0 0 0;
+    }
+
+    .subscribe {
+        width: 100%;
+    }
+
+    .bottom_nav ul {
+        display: none;
+    }
+
+}
