@@ -141,8 +141,8 @@ table {
     box-sizing: border-box;
 }
 
-* {
-    font-family: 'San Francisco','PingFangSC-Regular', Helvetica, Arial, san-serif;
+body {
+    font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,"Helvetica Neue", Arial, sans-serif;
 }
 
 .container {
@@ -258,7 +258,9 @@ table {
 }
 
 .product .content h2 {
-    font: normal normal bold 32px/48px SF Pro Text;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 48px;
 }
 
 .product-img {
