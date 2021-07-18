@@ -142,7 +142,7 @@ table {
 }
 
 * {
-    font-family: PingFangSC-Regular, sans-serif;
+    font-family: 'San Francisco','PingFangSC-Regular', Helvetica, Arial, san-serif;
 }
 
 .container {
@@ -150,8 +150,8 @@ table {
     max-width: 1110px;
 }
 
-.contain{
-width: 60%;
+.contain {
+    width: 60%;
 }
 
 .content a {
@@ -181,7 +181,9 @@ width: 60%;
 .header ul {
     display: flex;
 }
-
+.header i{
+    padding-right: 3px;
+}
 .header ul a {
     padding: 16px;
     color: #8D8D8D;
