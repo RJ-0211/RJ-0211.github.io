@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../perfume"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "perfume2",
+		"liveServer.settings.port": 5501
+	}
+}
