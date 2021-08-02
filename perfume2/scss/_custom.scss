@@ -28,7 +28,7 @@ $full:100%;
 }
 
 .logo {
-    background-image: url(/img/d’Perfume.png);
+    background-image: url(../img/d’Perfume.png);
     width: 128px;
     height: 38px;
 }
@@ -92,7 +92,7 @@ $full:100%;
 
 
 .banner {
-    background-image: url(/img/index1.jpg);
+    background-image: url(../img/index1.jpg);
     height: 870px;
     background-position: center;
     background-size: cover;
@@ -165,15 +165,15 @@ $full:100%;
         }
 
         .img1 {
-            background-image: url(/img/index2.jpg);
+            background-image: url(../img/index2.jpg);
         }
 
         .img2 {
-            background-image: url(/img/index3.png);
+            background-image: url(../img/index3.png);
         }
 
         .img3 {
-            background-image: url(/img/index4.jpg);
+            background-image: url(../img/index4.jpg);
 
         }
     }
@@ -192,7 +192,7 @@ $full:100%;
 
         .img4 {
             height: 1080px;
-            background-image: url(/img/index5.jpg);
+            background-image: url(../img/index5.jpg);
             background-position: center;
             background-size: cover;
         }
@@ -229,21 +229,21 @@ $full:100%;
 
     .card1 {
         .img {
-            background-image: url(/img/index6.jpg);
+            background-image: url(../img/index6.jpg);
             background-position: bottom;
         }
     }
 
     .card2 {
         .img {
-            background-image: url(/img/index7.jpg);
+            background-image: url(../img/index7.jpg);
             background-position: center;
         }
     }
 
     .card3 {
         .img {
-            background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/img/index8.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../img/index8.jpg);
             background-position: center;
 
             h2 {
@@ -293,7 +293,7 @@ $full:100%;
 
     .img {
         height: 520px;
-        background-image: url(/img/index9.jpg);
+        background-image: url(../img/index9.jpg);
         background-position: center;
         background-size: cover;
     }
@@ -322,7 +322,7 @@ $full:100%;
 }
 
 .footer {
-    background-image: url(/img/index10.jpg);
+    background-image: url(../img/index10.jpg);
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -364,7 +364,7 @@ $full:100%;
     .logo {
         width: 128px;
         height: 38px;
-        background-image: url(/img/d’Perfumewhite.png);
+        background-image: url(../img/d’Perfumewhite.png);
         margin-right: 20px;
     }
 

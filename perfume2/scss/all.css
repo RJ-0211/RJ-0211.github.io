@@ -11498,7 +11498,7 @@ fieldset:disabled .btn {
 }
 
 .logo {
-  background-image: url(/img/d’Perfume.png);
+  background-image: url(../img/d’Perfume.png);
   width: 128px;
   height: 38px;
 }
@@ -11551,7 +11551,7 @@ fieldset:disabled .btn {
 }
 
 .banner {
-  background-image: url(/img/index1.jpg);
+  background-image: url(../img/index1.jpg);
   height: 870px;
   background-position: center;
   background-size: cover;
@@ -11623,15 +11623,15 @@ fieldset:disabled .btn {
 }
 
 .area1 .product .img1 {
-  background-image: url(/img/index2.jpg);
+  background-image: url(../img/index2.jpg);
 }
 
 .area1 .product .img2 {
-  background-image: url(/img/index3.png);
+  background-image: url(../img/index3.png);
 }
 
 .area1 .product .img3 {
-  background-image: url(/img/index4.jpg);
+  background-image: url(../img/index4.jpg);
 }
 
 .area1 .step h2, .area1 .step .h2 {
@@ -11645,7 +11645,7 @@ fieldset:disabled .btn {
 
 .area1 .step .img4 {
   height: 1080px;
-  background-image: url(/img/index5.jpg);
+  background-image: url(../img/index5.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -11680,18 +11680,18 @@ fieldset:disabled .btn {
 }
 
 .area2 .card1 .img {
-  background-image: url(/img/index6.jpg);
+  background-image: url(../img/index6.jpg);
   background-position: bottom;
 }
 
 .area2 .card2 .img {
-  background-image: url(/img/index7.jpg);
+  background-image: url(../img/index7.jpg);
   background-position: center;
 }
 
 .area2 .card3 .img {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(/img/index8.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/index8.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/index8.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/index8.jpg);
   background-position: center;
 }
 
@@ -11734,7 +11734,7 @@ fieldset:disabled .btn {
 
 .area3 .img {
   height: 520px;
-  background-image: url(/img/index9.jpg);
+  background-image: url(../img/index9.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -11762,7 +11762,7 @@ fieldset:disabled .btn {
 }
 
 .footer {
-  background-image: url(/img/index10.jpg);
+  background-image: url(../img/index10.jpg);
   background-size: cover;
   background-position: center;
   height: 600px;
@@ -11805,7 +11805,7 @@ fieldset:disabled .btn {
 .bottom-nav .logo {
   width: 128px;
   height: 38px;
-  background-image: url(/img/d’Perfumewhite.png);
+  background-image: url(../img/d’Perfumewhite.png);
   margin-right: 20px;
 }
 
